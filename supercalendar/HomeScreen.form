@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="supercalendar.HomeScreen">
+  <grid id="27dc6" binding="home_screen" layout-manager="GridLayoutManager" row-count="5" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="679" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-10108307"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d24d4" class="javax.swing.JButton" binding="log_out">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Logout"/>
+        </properties>
+      </component>
+      <component id="ad8ed" class="javax.swing.JLabel" binding="title">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bookman Old Style" size="36" style="1"/>
+          <foreground color="-16755174"/>
+          <text value="SUPER CALENDAR"/>
+        </properties>
+      </component>
+      <component id="528e6" class="javax.swing.JButton" binding="share">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Share Calendar"/>
+        </properties>
+      </component>
+      <component id="84923" class="javax.swing.JButton" binding="createEventSeriesButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Create Event Series"/>
+        </properties>
+      </component>
+      <component id="a412" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="     Search     "/>
+        </properties>
+      </component>
+      <component id="2e65c" class="javax.swing.JButton" binding="viewButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="View Events and Series"/>
+        </properties>
+      </component>
+      <component id="c0f8e" class="javax.swing.JButton" binding="createEventButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="   Create Event   "/>
+        </properties>
+      </component>
+      <component id="3aaa0" class="javax.swing.JButton" binding="switchCalendarButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Switch Calendar"/>
+        </properties>
+      </component>
+      <component id="b3805" class="javax.swing.JButton" binding="sharedWithMeButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Shared with me"/>
+        </properties>
+      </component>
+      <component id="532d4" class="javax.swing.JButton" binding="Viewalert">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ViewAlert"/>
+        </properties>
+      </component>
+      <component id="f776c" class="javax.swing.JButton" binding="Viewmemo">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ViewMemo"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
