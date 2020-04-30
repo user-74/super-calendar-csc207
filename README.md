@@ -66,7 +66,7 @@ For example, a family could plan a vacation together and want to share family pl
 
 Logging into the Calendar
 
-0. Make sure to mark the phase2 folder as sources root
+0. Make sure to mark the folder as sources root in Intellij
 1. To start the calendar, build and run Main.java
 2. Select create a new user, and input your new user information.
 3. Log into the calendar using the user you just created.
